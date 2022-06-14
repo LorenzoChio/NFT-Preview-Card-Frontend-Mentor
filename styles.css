@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    width: 345px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    margin: auto;
+    border-radius: 15px;
+}
+
+.container {
+    padding: 25px;
+}
+
+.img-main {
+    width: 295px;
+    border-radius: 10px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.data img {
+    height: 20px;
+    margin-right: 7px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.artist img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+hr.line {
+    border-top: 1px solid hsl(215, 32%, 27%);
+    border-bottom: 1px solid hsl(216, 50%, 16%);
+}
+
+h1 {
+    font-size: 23px;
+    color: hsl(0, 0%, 100%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
