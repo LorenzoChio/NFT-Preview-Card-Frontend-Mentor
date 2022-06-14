@@ -13,7 +13,7 @@ body {
 
 .card {
     width: 345px;
-    height: 600px;
+    height: auto;
     background-color: hsl(216, 50%, 16%);
     margin: auto;
     border-radius: 15px;
@@ -21,11 +21,38 @@ body {
 
 .container {
     padding: 25px;
+    position: relative;
 }
 
 .img-main {
     width: 295px;
     border-radius: 10px;
+}
+
+.hover-hol {
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+}
+
+.hover-hol:hover .img-hover{
+    display: block;
+}
+
+.img-hover {
+    position: absolute;
+    width: 295px;
+    height: 295px;
+    border-radius: 10px;
+    background-color: hsla(178, 100%, 50%, .5);
+    display: none;
+}
+
+.eye {
+    position: absolute;
+    top: 118.5px;
+    left: 125px;
 }
 
 .data {
@@ -64,6 +91,7 @@ body {
 hr.line {
     border-top: 1px solid hsl(215, 32%, 27%);
     border-bottom: 1px solid hsl(216, 50%, 16%);
+    margin-top: 20px;
 }
 
 h1 {
@@ -78,4 +106,8 @@ a {
 
 a:hover {
     color: hsl(178, 100%, 50%);
+}
+
+.margin-bot {
+    margin-bottom: 15px;
 }
